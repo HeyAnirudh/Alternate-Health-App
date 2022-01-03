@@ -1,0 +1,30 @@
+h2{
+    font-weight: 300;
+    font-size: 50px;
+    
+}
+h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.text{
+    position:absolute;
+    left: 185px;
+    top:40%;
+    text-align: center;
+
+}
+
+.text::after{
+    position: absolute;
+    display: block;
+    content: '';
+    height: 200px;
+    width: 2px;
+    background-color: grey;
+    /* border: 1px solid grey; */
+    top: 50%;
+    transform: translateY(-50%);
+    right: -150px;
+}

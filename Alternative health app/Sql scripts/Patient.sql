@@ -1,0 +1,25 @@
+use HealthApp;
+create table patient(
+Patient_Id numeric (20),
+First_name varchar(50),
+Last_name varchar(50),
+Father_name varchar(50),
+Mother_name varchar(50),
+Address_1 varchar(50),
+Address_2 varchar(50),
+City varchar(50),
+State varchar(50),
+Country varchar(50),
+District varchar(50),
+Zipcode numeric(10),
+Mobile_number numeric(20),
+Id_number numeric(20),
+Diagnosis_id numeric(20),
+Diagnosis_code_source varchar(50),
+Abx_id numeric(10),
+Med_Name varchar (20),
+freqency numeric(10),
+start_dtm datetime(6),
+End_dtm datetime(6),
+Next_appointment_date datetime(6)
+);
