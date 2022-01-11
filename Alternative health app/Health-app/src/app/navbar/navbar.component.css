@@ -1,4 +1,10 @@
+*{
+   box-sizing: border-box;
+}
 .nav-link{
    right:10px;
    transform: translateX(20);
+}
+#logo{
+   height: 50px;
 }
