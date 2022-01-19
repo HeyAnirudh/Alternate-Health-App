@@ -1,0 +1,64 @@
+.top {
+  background-image:  url('https://wallpaperbat.com/img/31679-medical-wallpaper-background.jpg'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    display: inline;
+}
+
+#head {
+  
+  padding-right: 100px;
+}
+
+div.center {
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+  display: inline-block;
+  color: white;  
+}
+
+#bigtext {
+  font-size: 50px;
+}
+
+.button {
+  background-color: #2596be;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button.btn {
+  top:100px;
+}
+.img{
+  width :75px;
+  height:auto;
+}
+.one{
+  background-color:black;
+}
+* {
+  box-sizing: border-box;
+}
+
+.right{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  right:100px;
+}
