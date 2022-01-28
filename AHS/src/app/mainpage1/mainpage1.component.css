@@ -1,0 +1,39 @@
+.outline {
+    background-color: rgb(255, 255, 255);
+    background-color: chartreuse;
+    height: 600px;
+    width: ;
+}
+
+.container {
+    width: 500px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.custom-select {
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.custom-file {
+    margin-top: 10px;
+}
+
+
+/* * {
+    background-image: url("src/assets/31679-medical-wallpaper-background.jpg");
+} */
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.container1 {
+    background-color: chartreuse;
+    width: 900px;
+    height: 400px;
+    margin-left: 700px;
+}

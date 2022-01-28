@@ -1,30 +1,110 @@
-<div class="row">
-    <div class="col">
-      <div ngbDropdown class="d-inline-block">
-        <button class="btn btn-outline-primary" id="dropdownForm1" ngbDropdownToggle>Toggle dropdown</button>
-        <div ngbDropdownMenu aria-labelledby="dropdownForm1">
-          <form class="px-4 py-3">
-            <div class="form-group">
-              <label for="exampleDropdownFormEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" autocomplete="username">
+<!-- <span class="border border-primary">
+<div class="container">
+    <div class="outline">
+    <h1>Sign in</h1>
+    <form class="needs-validation" notvalidated>
+        <div class="row">
+            <div class="col">
+                <label for="First name">First name</label>
+                <input type="text" class="form-control" placeholder="First name">
             </div>
-            <div class="form-group">
-              <label for="exampleDropdownFormPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" autocomplete="current-password">
+
+            <div class="col">
+                <label for="First name">last name</label>
+                <input type="text" class="form-control" placeholder="Last name">
             </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="dropdownCheck">
-              <label class="form-check-label" for="dropdownCheck">
-                Remember me
-              </label>
+
+            <div class="row">
+                <div class="col">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="col" style="margin-left: 0px;">
+                    <label for="First name">Contact </label>
+                    <input type="text" class="form-control" placeholder="Contact number">
+
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </form>
-          <div class="dropdown-divider"></div>
-          <button ngbDropdownItem>New around here? Sign up</button>
-          <button ngbDropdownItem>Forgot password?</button>
+            <div class="from-control">
+                <label for="Address">Address</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="First name">City</label>
+                    <input type="text" class="form-control" placeholder="City">
+
+                </div>
+                <div class="col">
+                    <label for="First name">State</label>
+                    <input type="text" class="form-control" placeholder="State">
+
+                </div>
+                <div class="col">
+                    <label for="First name">Country</label>
+                    <input type="text" class="form-control" placeholder="Country">
+
+                </div>
+
+            </div>
+            <div class="from-control">
+                <label for="District">District</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="from-control">
+                <label for="zipcode">Zipcode</label>
+                <input type="" class="form-control">
+            </div>
+            <label for="exampleInputEmail1">Upload Aadhaar/Pan/Driving card info</label>  
+            <select class="custom-select" required>
+            
+              <option value="">Select</option>
+              <option value="1">Aadhar card </option>
+              <option value="2">Pan car</option>
+              <option value="3">Driving licence</option>
+        </select>
+
+            <div class="invalid-feedback">Example invalid custom select feedback</div>
         </div>
-      </div>
+
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+        </div>
+
+     
+    </form>
     </div>
-  </div>
-  
+</div>
+</span> -->
+<!-- 
+------------------------------------------------------------------------------------------------------- -->
+<div class="container1">
+    <form>
+        <div class="head">
+            <h2>Login</h2>
+            <div class="email">
+
+                <input style="width:400px;" type="text" class="form-control" placeholder="Email">
+            </div>
+
+            <div class="pass">
+
+                <input type="text" style="width:400px" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-check d-flex justify-content-start mb-4">
+                <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+                <label class="form-check-label" for="form1Example3"> Remember password </label>
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+
+            <hr class="my-4">
+
+            <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;width: 400px;" type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+            <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;width: 400px;top:1000px;" type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+        </div>
+    </form>
+</div>

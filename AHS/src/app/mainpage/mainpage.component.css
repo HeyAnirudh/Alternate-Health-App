@@ -1,37 +1,36 @@
 .top {
-    background-image:  url('https://wallpaperbat.com/img/31679-medical-wallpaper-background.jpg'); 
+    background-image: url('https://wallpaperbat.com/img/31679-medical-wallpaper-background.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .text{
+}
+
+.text {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  span {
-      display: inline;
-  }
-  
-  #head {
-    
+}
+
+span {
+    display: inline;
+}
+
+#head {
     padding-right: 100px;
-  }
-  
-  div.center {
+}
+
+div.center {
     margin-top: 15%;
     margin-left: 10%;
-  
     margin-bottom: 15%;
     display: inline-block;
-    color: white;  
-  }
-  
-  #bigtext {
+    color: white;
+}
+
+#bigtext {
     font-size: 50px;
-  }
-  
-  .button {
+}
+
+.button {
     background-color: #2596be;
     border: none;
     color: white;
@@ -41,55 +40,99 @@
     display: inline-block;
     font-size: 14px;
     border-radius: 5px;
-  }
-  
-  button.btn {
-    top:100px;
-  }
-  .img{
-    width :75px;
-    height:auto;
-  }
-  .one{
-    background-color:black;
-  }
-  * {
+}
+
+button.btn {
+    top: 100px;
+}
+
+.img {
+    width: 75px;
+    height: auto;
+}
+
+.one {
+    background-color: black;
+}
+
+* {
     box-sizing: border-box;
-  }
-  
-  .right{
-   position: relative;
-   display: flex;
- 
-   right:10px;
-   left:150px;
-   top:120px;
-   border-radius: 90px;
-  }
-  #pysio{
+}
+
+.right {
     position: relative;
-  
+    display: flex;
+    right: 10px;
+    left: 150px;
+    top: 120px;
+    border-radius: 90px;
+}
+
+#pysio {
+    position: relative;
     margin-right: 100px;
-  }
-  .left{
+}
+
+.left {
     position: relative;
-   display: flex;
- 
-   right:10px;
-   left:100px;
-   top:30px;
-   border-radius: 90px;
-  }
-  .left1{
+    display: flex;
+    right: 10px;
+    left: 100px;
+    top: 30px;
+    border-radius: 90px;
+}
+
+.left1 {
     position: relative;
-   display: flex;
- 
-   right:10px;
-   left:100px;
-   top:90px;
-   border-radius: 90px;
-  }
-  html {
+    display: flex;
+    right: 10px;
+    left: 100px;
+    top: 90px;
+    border-radius: 90px;
+}
+
+html {
     scroll-behavior: smooth;
-  }
-  
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
