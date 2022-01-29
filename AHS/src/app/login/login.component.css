@@ -1,7 +1,8 @@
 h2 {
     font-weight: 300;
     font-size: 50px;
-    margin-left: 140px;
+    margin-left: -82px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 #account-type {
     font-weight: 100;
     font-size: 20px;
-    margin-left: 90px;
+    margin-left: -99px;
 }
 
 .text {
@@ -42,46 +43,59 @@ h1 {
     font-family: 'Quicksand', sans-serif;
 }
 
+#choose-move {
+    margin-left: -198px;
+    margin-top: 36px;
+}
+
 .container {
     width: 400px;
-    height: 800px;
+    height: 600px;
     border: 2px solid black;
     display: flex;
     /* justify-content: right;
     align-items: right; */
     margin-left: 400px;
+    transform: translate(80%, 30%);
+    border-radius: 10px;
 }
 
-.center {
+
+/* .center {
     width: 100%;
     height: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
-}
+} */
 
-.left,
+
+/* .left,
 .right {
     width: 80%;
     height: 80%;
     margin-top: 40px;
     /* border: 2px solid yellow; */
-    display: flex;
+
+
+/* display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.right {
+
+/* .right {
     background-color: rgb(139, 122, 244);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     font-weight: 700;
-}
+} */
 
-.left {
+
+/* .left {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     flex-direction: column;
-}
+} */
 
 .formContainer {
     min-width: 200px;
@@ -90,14 +104,11 @@ h1 {
     margin-left: 200px;
 }
 
-.formContainer h2 {
+
+/* .formContainer h2 {
     font-size: 30px;
     margin-bottom: 10px;
-}
-
-#victoryHand {
-    height: 30px;
-}
+} */
 
 #extInfo {
     margin-bottom: 40px;
@@ -125,10 +136,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(81, 56, 238);
     border-radius: 10px;
     padding: 4px;
-    margin: 18px 0px;
+    margin-left: 18px;
     font-weight: 600;
     cursor: pointer;
     position: static;
@@ -138,22 +149,51 @@ h1 {
     width: 122px;
     height: 122px;
     left: 250px;
-    top: -140px;
+    top: -122px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(81, 56, 238);
     border-radius: 10px;
     padding: 4px;
-    margin: 18px 0px;
+    margin-left: -17px;
     font-weight: 600;
     cursor: pointer;
     position: relative;
 }
 
+#doc-img {
+    width: 115px;
+    height: 119px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+#pat-img {
+    width: 115px;
+    height: 119px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
 .btn img {
     height: 20px;
     margin: 5px;
+}
+
+.radio {
+    margin-left: 65px;
+    margin-top: -110px
+}
+
+#doc-radio {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#pat-radio {
+    margin-left: 216px;
+    margin-top: -22px;
 }
 
 .btn p {
@@ -172,7 +212,15 @@ h1 {
     text-align: center;
 }
 
-.lineText::before,
+.form-container {
+    position: relative;
+    left: -35px;
+    margin-left: -226px;
+    top: 10px;
+}
+
+
+/* .lineText::before,
 .lineText::after {
     content: "";
     display: block;
@@ -181,15 +229,16 @@ h1 {
     background: rgb(168, 164, 164);
     top: 50%;
     position: absolute;
-}
+} */
 
-.lineText::before {
+
+/* .lineText::before {
     left: -8px;
 }
 
 .lineText::after {
     right: -8px;
-}
+} */
 
 .inputText {
     height: 45px;
@@ -211,9 +260,25 @@ h1 {
 
 #forPass {
     text-decoration: none;
-    float: right;
+    margin-left: 0px;
     font-size: 14px;
     color: blue;
+}
+
+#signup {
+    text-decoration: none;
+    margin-left: 191px;
+    margin-top: -39px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(5, 5, 5);
+}
+
+#sign {
+    text-decoration: none;
+    font-size: 14px;
+    color: blue;
+    font-weight: bold;
 }
 
 .submit {
