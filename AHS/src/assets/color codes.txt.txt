@@ -1,0 +1,5 @@
+medical facility-rgb(165, 236, 225)
+Physiotherapy-rgba(117, 217, 241, 0.151)
+Music Therepy-rgb(113, 192, 238)
+Yoga-rgb(240, 211, 176)
+Dietry-rgb(241, 240, 150)
