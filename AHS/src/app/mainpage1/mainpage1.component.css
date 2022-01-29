@@ -2,7 +2,6 @@
     background-color: rgb(255, 255, 255);
     background-color: chartreuse;
     height: 600px;
-    width: ;
 }
 
 .container {
@@ -35,5 +34,41 @@
     background-color: chartreuse;
     width: 900px;
     height: 400px;
-    margin-left: 700px;
+    margin-left: 100px;
+}
+
+#_bg__layout {
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    width: 335px;
+    height: 468px;
+    left: 241px;
+    bottom: 103px;
+}
+
+#_bg__bg {
+    top: 0px;
+    left: 0px;
+    width: 802px;
+    background: rgb(77, 209, 241);
+}
+
+#__p__choose_account_type {
+    top: 69px;
+    left: 323.44px;
+    width: 161.63px;
+    height: 25.5px;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-align: left;
+    color: #38B5ED;
+}
+
+#_bg__illustration {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 131px;
+    background: rgba(255, 255, 255, 1);
 }
