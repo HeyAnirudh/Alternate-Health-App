@@ -13,12 +13,16 @@
 span {
     display: inline;
 }
+table{
+    font-family: Garamond, serif;
+}
 
 #head {
     padding-right: 100px;
 }
 
 div.center {
+    font-family: Garamond, serif;
     margin-top: 15%;
     margin-left: 10%;
     margin-bottom: 15%;

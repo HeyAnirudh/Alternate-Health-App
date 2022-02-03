@@ -53,10 +53,7 @@ h1 {
     height: 600px;
     border: 2px solid black;
     display: flex;
-    /* justify-content: right;
-    align-items: right; */
-    margin-left: 400px;
-    transform: translate(80%, 30%);
+    margin-left: 450px;
     border-radius: 10px;
 }
 
