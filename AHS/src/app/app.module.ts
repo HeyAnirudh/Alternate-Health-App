@@ -8,6 +8,7 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { Mainpage1Component } from './mainpage1/mainpage1.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './mainpage/dashboard/dashboard.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DashboardComponent } from './mainpage/dashboard/dashboard.component';
     MainpageComponent,
     Mainpage1Component,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
