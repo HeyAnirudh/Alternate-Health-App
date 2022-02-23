@@ -87,14 +87,14 @@
                         <div class="form-container">
                             <form action="#" method="post">
 
-                                <input type="email" name="userId" class="inputText" autocomplete="off" placeholder="Enter your Email">
+                                <input type="email" name="userId" class="inputText" autocomplete="off" placeholder="Enter your Email" required>
 
-                                <input type="password" name="password" class="inputText" autocomplete="off" placeholder="Enter your Password">
+                                <input type="password" name="password" class="inputText" autocomplete="off" placeholder="Enter your Password" required>
                                 <a id="forPass" href="#">Forget Password?</a>
                             </form>
-                            <div class="btn submit">Login</div>
+                            <div class="btn submit"><a routerLink="/dashboard">Login</a></div>
 
-                            <p id="signup">No Account? <a id="sign" href="#">Signup</a></p>
+                            <p id="signup">No Account? <a id="sign" routerLink="/register">Register</a></p>
                         </div>
                     </div>
                 </div>

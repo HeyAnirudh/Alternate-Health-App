@@ -19,7 +19,7 @@ h1 {
 .text {
     position: absolute;
     left: 185px;
-    top: 40%;
+    top: 35%;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ h1 {
 
 .container {
     width: 400px;
-    height: 600px;
+    height: 570px;
     border: 2px solid black;
     display: flex;
     margin-left: 450px;
