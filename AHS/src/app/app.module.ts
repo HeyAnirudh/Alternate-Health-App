@@ -9,7 +9,7 @@ import { Mainpage1Component } from './mainpage1/mainpage1.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './mainpage/dashboard/dashboard.component';
 
-import { FooterComponent } from './footer/footer.component';
+
 import { ProfileComponent } from './mainpage/profile/profile.component';
 import { AppointmentComponent } from './mainpage/appointment/appointment.component';
 import {Routes ,RouterModule} from '@angular/router';
@@ -35,7 +35,7 @@ const appRoutes: Routes =[
     LoginComponent,
     DashboardComponent,
 
-    FooterComponent
+    FooterComponent,
 
     ProfileComponent,
     AppointmentComponent,
