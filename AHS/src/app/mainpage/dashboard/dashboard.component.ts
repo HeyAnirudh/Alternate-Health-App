@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-declare function colorLink(): void;
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -8,7 +8,7 @@ declare function colorLink(): void;
 export class DashboardComponent implements OnInit {
 
   constructor() {
-    colorLink();
+    
    }
 
   ngOnInit(): void {
