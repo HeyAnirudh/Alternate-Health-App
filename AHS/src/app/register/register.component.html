@@ -1,14 +1,19 @@
-<div id="svg_wrap"></div>
+<html>
+  <body>
+    <div id="svg_wrap"></div>
+    <div class="container" >
+    
+      <div class="formContainer">
 
- <h1>Registration</h1>
+ <h1 style="text-align: center;">Registration</h1>
 <section>
   <p>Personal information</p>
-  <input type="text" placeholder="Firstname" />
-  <input type="text" placeholder="Surname" />
+  <input type="text" placeholder="Firstname" required>
+  <input type="text" placeholder="Surname" required>
   <div class="label">Birth Date:</div>
-    <input type="date" id="start" name="trip-start" value="" >
+    <input type="date" id="start" name="trip-start" value="" required>
 
-  <div class="label">Gender:</div>
+  <div class="label" required>Gender:</div>
                      <select>
                          <option>Male</option>
                          <option>Female</option>
@@ -18,27 +23,28 @@
 
 <section>
   <p>Address</p>
-  <input type="text" placeholder="Street" />
-  <input type="text" placeholder="City" />
-  <input type="text" placeholder="Postcode" />
-  <input type="text" placeholder="Country" />
+  <input type="text" placeholder="Street" required>
+  <input type="text" placeholder="City" required>
+  <input type="text" placeholder="Postcode" required>
+  <input type="text" placeholder="Country" required>
 </section>
 
 <section>
   <p>Contact information</p>
-  <input type="text" placeholder="Email address" />
-  <input type="text" placeholder="Phone" />
-  <input type="text" placeholder="Mobile" />
+  <input type="text" placeholder="Email address" required>
+  <input type="text" placeholder="Phone" required>
+  <input type="text" placeholder="Mobile" required>
 </section>
 
 <section>
   <p>Register</p>
-  <input type="text" placeholder="Username" />
-  <input type="password" placeholder="password" />
-  <input type="password" placeholder="confirm password" />
+  <input type="text" placeholder="Username" required>
+  <input type="password" placeholder="password" required>
+  <input type="password" placeholder="confirm password" required>
 </section>
+      </div></div>
 
-
-  <div class="button" id="prev">&larr; Previous</div>
-<div class="button" id="next">Next &rarr;</div>
-<div class="button" id="submit"><a routerLink="/login">Register</a></div>
+      <a id="cancel" routerLink="/mainpage">Cancel</a>
+<div class="button" id="submit" style="text-align: center;"><a routerLink="/login">Register</a></div>
+</body>
+</html>

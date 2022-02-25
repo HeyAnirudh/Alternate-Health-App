@@ -1,3 +1,9 @@
+body{
+    background-image: url(hc.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 h2 {
     font-weight: 300;
     font-size: 50px;
@@ -278,16 +284,7 @@ h1 {
     font-weight: bold;
 }
 
-.submit {
-    margin-top: 45px;
-    background-color: rgb(81, 56, 238);
-    border: transparent;
-    color: white;
-}
 
-.submit:hover {
-    background-color: rgb(51, 31, 179);
-}
 
 #copyRight {
     font-size: 12px;
@@ -335,3 +332,21 @@ h1 {
     position: relative;
     z-index: 1;
 }
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancel {
+    width: auto;
+    padding: 7px 15px;
+  }
+  
