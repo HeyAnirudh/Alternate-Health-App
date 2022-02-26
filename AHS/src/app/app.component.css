@@ -1,8 +1,18 @@
 .data {
+<<<<<<< HEAD
     border: black dotted;
     width: 1080px;
     height: 600px;
     left: 200px;
     position: relative;
     top: 1px;
+=======
+    border-radius: 10px;
+    border: black solid;
+    width: 1070px;
+    height: 570px;
+    left: 200px;
+    position: relative;
+    top: 5px;
+>>>>>>> parent of 6f120b0 (routing update)
 }
