@@ -17,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { MedicineComponent } from './medicine/medicine.component';
 import { DiagnosisComponent } from './diagnosis/diagnosis.component';
+import { HomeComponent } from './home/home.component';
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -43,6 +44,7 @@ const appRoutes: Routes =[
     RegisterComponent,
     MedicineComponent,
     DiagnosisComponent,
+    HomeComponent,
     
 
   ],

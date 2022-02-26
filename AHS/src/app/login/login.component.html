@@ -50,63 +50,65 @@
 </table> -->
 
 <html>
-    <body>
 
-    <div class="container" >
-    
-    <div class="formContainer">
-        <h2>Sign in
+<body>
 
-        </h2>
-        <h2 id="account-type">
-            Choose account type
-        </h2>
-        <div id="choose-move">
-            <div id="doctor">
-                <div> <img id="doc-img" src="assets/doctor.png" alt=""></div>
-                <!-- <div>
+    <div class="container">
+
+        <div class="formContainer">
+            <h2>Sign in
+
+            </h2>
+            <h2 id="account-type">
+                Choose account type
+            </h2>
+            <div id="choose-move">
+                <div id="doctor">
+                    <div> <img id="doc-img" src="assets/doctor.png" alt=""></div>
+                    <!-- <div>
                     <p>Doctor</p>
                 </div> -->
 
-            </div>
-            <div id="pateint">
-                <img id="pat-img" src="assets/patient.png" alt="">
-                <!-- <p>Patient</p> -->
-            </div>
-            <div class="radio">
-                <div id="doc-radio">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                </div>
+                <div id="pateint">
+                    <img id="pat-img" src="assets/patient.png" alt="">
+                    <!-- <p>Patient</p> -->
+                </div>
+                <div class="radio">
+                    <div id="doc-radio">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
                           Doctor
                         </label>
+                        </div>
                     </div>
-                </div>
-                <div id="pat-radio">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                    <div id="pat-radio">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
                           Patient
                         </label>
-                        <div class="form-container">
-                            <form action="#" method="post">
+                            <div class="form-container">
+                                <form action="#">
 
-                                <input type="email" name="userId" class="inputText" autocomplete="off" placeholder="Enter your Email" required>
+                                    <input type="email" name="userId" class="inputText" autocomplete="off" placeholder="Enter your Email" required>
 
-                                <input type="password" name="password" class="inputText" autocomplete="off" placeholder="Enter your Password" required>
-                                <button type="submit"><a routerLink="/dashboard">Login</a></button>
-                                <a id="forPass" href="#">Forget Password?</a>
-                            </form>
-                            <a id="cancel" routerLink="/mainpage">Cancel</a>
-                            <p id="signup">No Account? <a id="sign" routerLink="/register">Register</a></p>
+                                    <input type="password" name="password" class="inputText" autocomplete="off" placeholder="Enter your Password" required>
+                                    <button routerLink="/Home" type="submit"><a >Login</a></button>
+                                    <a id="forPass" href="#">Forget Password?</a>
+                                </form>
+                                <a id="cancel" routerLink="/mainpage">Cancel</a>
+                                <p id="signup">No Account? <a id="sign" routerLink="/register">Register</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
-
     </div>
-</div>
 </body>
+
 </html>
