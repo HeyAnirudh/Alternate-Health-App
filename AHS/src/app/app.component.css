@@ -1,9 +1,9 @@
 .data {
-    border-radius: 10px;
+    border-radius: 2px;
     border: black solid;
-    width: 1070px;
-    height: 570px;
+    width: 1079px;
+    height: 609px;
     left: 200px;
     position: relative;
-    top: 5px;
+    
 }
