@@ -45,21 +45,25 @@
 
 }
 .container1{
+    position: relative;
     border-radius: 5px;
     border: 2px solid #E9F1F7;
     width:500px;
-    height:310px;
+    height:287px;
     margin-left: 40px;
     margin-top: 20px;
     background-color: white;
+    top:44px
 }
 .container2{
+    position: relative;
+    top:44px;
     border-radius: 5px;
     border: 2px solid #E9F1F7;
     width:500px;
-    height:310px;
+    height:287px;
     margin-left:554px;
-    margin-top: -310px;
+    margin-top: -287px;
     background-color: white;
 }
 .container3{
@@ -68,7 +72,7 @@
     width:1013px;
     height:230px;
     margin-left: 40px;
-    margin-top: 23px;
+    margin-top: 58px;
     background-color: white;
 }
 
