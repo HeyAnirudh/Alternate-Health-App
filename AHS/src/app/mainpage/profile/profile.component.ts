@@ -1,4 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import patientData from 'db.json';
+interface Patient {
+  gender:string;
+  age:Number;
+  height:number;
+  weight:number;
+}
 
 @Component({
   selector: 'app-profile',
@@ -9,7 +16,10 @@ export class ProfileComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  
+
+  ngOnInit(): void { }
+
+  patient:Patient[]=patientData;
 
 }

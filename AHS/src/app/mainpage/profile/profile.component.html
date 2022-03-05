@@ -11,11 +11,11 @@
     <p>Height:</p>
     <p>Weight:</p>    
     </div>
-    <div class="row1">
-        <p>Male</p>
-        <p>21</p>
-        <p>5'11</p>
-        <p>70</p>    
+    <div class="row1" *ngFor="let patient of patient ">
+         <p>{{patient.gender}}</p> 
+         <p>{{patient.age}}</p>
+         <p>{{patient.height}}</p>
+         <p>{{patient.weight}}</p>
         </div>
 </div>
 <div class ="container2">
