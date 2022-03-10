@@ -20,6 +20,6 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit(): void { }
 
-  patient:Patient[]=patientData;
+ 
 
 }

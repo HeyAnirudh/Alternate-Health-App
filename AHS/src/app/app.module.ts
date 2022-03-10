@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +19,9 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { MedicineComponent } from './medicine/medicine.component';
 import { DiagnosisComponent } from './diagnosis/diagnosis.component';
+import { SignupComponent } from './signup/signup.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -43,12 +48,16 @@ const appRoutes: Routes =[
     RegisterComponent,
     MedicineComponent,
     DiagnosisComponent,
+    SignupComponent,
+    HomeComponent,
     
 
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     AppRoutingModule,
+    HttpClientModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes)
 
