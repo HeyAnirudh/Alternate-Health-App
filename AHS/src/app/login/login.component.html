@@ -89,12 +89,12 @@
                           Patient
                         </label>
                         <div class="form-container">
-                            <form [formGroup]="loginForm" (ngSubmit)="login()">
+                            <form action="#" method="post">
 
-                                <input formControlName="email" type="email" name="userId" class="inputText" autocomplete="off" placeholder="Enter your Email" required>
+                                <input type="email" name="userId" class="inputText" autocomplete="off" placeholder="Enter your Email" required>
 
-                                <input formControlName="password" type="password" name="password" class="inputText" autocomplete="off" placeholder="Enter your Password" required>
-                                <button type="submit"><a routerLink="/home">Login</a></button>
+                                <input type="password" name="password" class="inputText" autocomplete="off" placeholder="Enter your Password" required>
+                                <button type="submit"><a routerLink="/dashboard">Login</a></button>
                                 <a id="forPass" href="#">Forget Password?</a>
                             </form>
                             <a id="cancel" routerLink="/mainpage">Cancel</a>

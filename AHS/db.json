@@ -1,22 +1,9 @@
-{
-  "signup": [
-    {
-      "name": "Anirudh ",
-      "email": "anirudh90hyd@gmail.com",
-      "password": "anirydg",
-      "age": "21",
-      "height": "12",
-      "weight": "12",
-      "id": 1
-    },
-    {
-      "name": "Anirudh",
-      "email": "anirudh90hyd@gmail.com",
-      "password": "ani",
-      "age": "21",
-      "height": "21",
-      "weight": "21",
-      "id": 2
-    }
-  ]
-}
+[
+  {
+      "id":1,
+      "gender":"male",
+      "age":30,
+      "height":5,
+      "weight":79
+  }
+]

@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { HttpClientModule } from '@angular/common/http';
-
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,12 +18,15 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { MedicineComponent } from './medicine/medicine.component';
 import { DiagnosisComponent } from './diagnosis/diagnosis.component';
+<<<<<<< HEAD
 import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 =======
 import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 09e1ffc (backend)
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -53,19 +54,20 @@ const appRoutes: Routes =[
     RegisterComponent,
     MedicineComponent,
     DiagnosisComponent,
+<<<<<<< HEAD
     SignupComponent,
     HomeComponent,
 =======
     PractionerDashboardComponent,
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 09e1ffc (backend)
     
 
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule,
     AppRoutingModule,
-    HttpClientModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes)
 
