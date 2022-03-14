@@ -15,7 +15,6 @@ import { DashboardComponent } from './mainpage/dashboard/dashboard.component';
 import { ProfileComponent } from './mainpage/profile/profile.component';
 import { AppointmentComponent } from './mainpage/appointment/appointment.component';
 import {Routes ,RouterModule} from '@angular/router';
-<<<<<<< Updated upstream
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { MedicineComponent } from './medicine/medicine.component';
@@ -23,9 +22,7 @@ import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
-=======
 import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
->>>>>>> Stashed changes
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -48,16 +45,13 @@ const appRoutes: Routes =[
 
     ProfileComponent,
     AppointmentComponent,
-<<<<<<< Updated upstream
     FooterComponent,
     RegisterComponent,
     MedicineComponent,
     DiagnosisComponent,
     SignupComponent,
     HomeComponent,
-=======
     PractionerDashboardComponent,
->>>>>>> Stashed changes
     
 
   ],
