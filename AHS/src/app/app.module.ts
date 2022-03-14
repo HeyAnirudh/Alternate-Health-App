@@ -22,6 +22,7 @@ import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -50,6 +51,7 @@ const appRoutes: Routes =[
     DiagnosisComponent,
     SignupComponent,
     HomeComponent,
+    PractionerDashboardComponent,
     
 
   ],
