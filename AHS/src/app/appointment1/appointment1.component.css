@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Syne Mono', monospace;
+}
+
+.column-row {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card img{
+  width: 50%;
+  border : 2px solid black;
+  border-radius: 50%;
+}

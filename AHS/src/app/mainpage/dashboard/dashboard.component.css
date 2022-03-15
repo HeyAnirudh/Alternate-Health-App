@@ -13,7 +13,7 @@ body {
     position: fixed;
     left: 0;
     width: 200px;
-    background-color: #042331;
+    background-color: #0d5475;
     height: 100%;
     border-radius: 10px;
 }
@@ -22,14 +22,15 @@ body {
     padding-top: 20px;
     width: 100px;
     position: relative;
-    left: 38px;
+    left: 30px;
+    background-color: #0d5475;
 }
 
 .sidebar header {
     font-size: 22px;
     color: white;
     text-align: center;
-    background-color: #063146;
+    background-color: #0d5475;
     user-select: none;
 }
 
