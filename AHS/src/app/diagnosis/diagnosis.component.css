@@ -1,0 +1,126 @@
+/* body{
+    margin-top: 20px;
+    background-color: lightgray;
+}
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    background-color: teal;
+    overflow: hidden;
+}
+.topbar a{
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.sidebar{
+    background-color: #333;
+    color: white;
+    height: 100%;
+}
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: whitesmoke;
+}
+ */
+ .body{
+    background-color: rgb(242,241,247);
+}
+table, th, td {
+    border:1px solid black;
+  }
+
+.container1{
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #E9F1F7;
+    width:350px;
+    height:520px;
+    margin-left: 5px;
+    margin-top: -287px;
+    background-color: white;
+    top:295px;
+    border-color: green;
+}
+
+
+.container2{
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #E9F1F7;
+    width:350px;
+    height:520px;
+    margin-left: 355px;
+    margin-top: -287px;
+    background-color: white;
+    top:63px
+}
+.container3{
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #E9F1F7;
+    width:350px;
+    height:520px;
+    margin-left: 705px;
+    margin-top: -467px;
+    background-color: white;
+    top:10px
+}
+
+
+body{
+    background-color: #ADD8E6;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+
+    padding-left: 10px;
+}
+.img {
+    padding-top: 6px;
+    width: 154px;
+    position: relative;
+    left: 24px;
+}
+.row{
+    color: grey;
+    font-size: medium;
+    margin-left:271px;
+    margin-top:-192px;
+
+
+}
+.row p{
+    font-size: medium;
+}
+
+.row1{
+    color: black;
+    font-size: medium;
+    margin-left:375px;
+    margin-top:-159px;
+
+
+}
+.row1 p{
+    font-size: medium;
+}
