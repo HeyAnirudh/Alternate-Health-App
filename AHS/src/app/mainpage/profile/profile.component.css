@@ -116,3 +116,7 @@ p{
 .row1 p{
     font-size: medium;
 }
+
+.example-chip-list {
+    width: 100%;
+  }
