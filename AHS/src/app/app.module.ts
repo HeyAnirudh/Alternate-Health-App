@@ -25,6 +25,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
+<<<<<<< HEAD
 
 import { Appointment1Component } from './appointment1/appointment1.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -36,6 +37,8 @@ import { FileuploderComponent } from './mainpage/profile/fileuploder/fileuploder
 
 
 
+=======
+>>>>>>> parent of 651c07d (medicine, diagnosis)
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -66,12 +69,15 @@ const appRoutes: Routes =[
     SignupComponent,
     HomeComponent,
     PractionerDashboardComponent,
+<<<<<<< HEAD
 
     Appointment1Component,
     FileuploderComponent,
     
 
 
+=======
+>>>>>>> parent of 651c07d (medicine, diagnosis)
     
 
   ],
