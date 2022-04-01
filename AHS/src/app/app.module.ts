@@ -2,9 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HttpClientModule } from '@angular/common/http';
-import {MatChipsModule} from '@angular/material/chips';
-import { AngularFileUploaderModule } from "angular-file-uploader";
-
+import { FullCalendarModule } from '@fullcalendar/angular';
+import dayGridPlugin from '@fullcalendar/daygrid'; // a plugin!
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,23 +24,8 @@ import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 import { Appointment1Component } from './appointment1/appointment1.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { MatIconModule } from '@angular/material/icon';
-import { FileuploderComponent } from './mainpage/profile/fileuploder/fileuploder.component';
 
-
-
-
-=======
->>>>>>> parent of 651c07d (medicine, diagnosis)
-=======
->>>>>>> parent of 651c07d (medicine, diagnosis)
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
 {path :'profile', component: ProfileComponent},
@@ -50,11 +34,12 @@ const appRoutes: Routes =[
 {path :'diagnosis', component: DiagnosisComponent}
 
 ];
-
+FullCalendarModule.registerPlugins([ // register FullCalendar plugins
+  dayGridPlugin,
+]);
 
 @NgModule({
   declarations: [
-
     AppComponent,
     MainpageComponent,
     Mainpage1Component,
@@ -72,34 +57,19 @@ const appRoutes: Routes =[
     SignupComponent,
     HomeComponent,
     PractionerDashboardComponent,
-<<<<<<< HEAD
-<<<<<<< HEAD
-
     Appointment1Component,
-    FileuploderComponent,
-    
 
-
-=======
->>>>>>> parent of 651c07d (medicine, diagnosis)
-=======
->>>>>>> parent of 651c07d (medicine, diagnosis)
     
 
   ],
   imports: [
-    MatFormFieldModule,
-    MatInputModule,
-    MatIconModule,
-    MatChipsModule,
     BrowserModule,
     ReactiveFormsModule,
     AppRoutingModule,
     HttpClientModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
-    BrowserAnimationsModule,
-    AngularFileUploaderModule
+    FullCalendarModule
 
 
   ],
