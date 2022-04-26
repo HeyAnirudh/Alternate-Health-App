@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { HomeComponent } from './home/home.component';
+import { LoginDoctorComponent } from './login-doctor/login-doctor.component';
+import { LoginPatientComponent } from './login-patient/login-patient.component';
 import { LoginComponent } from './login/login.component';
 import { AppointmentComponent } from './mainpage/appointment/appointment.component';
 import { DashboardComponent } from './mainpage/dashboard/dashboard.component';
@@ -15,8 +17,17 @@ import { SignupComponent } from './signup/signup.component';
 const routes: Routes = [
   { path: '', component: MainpageComponent },
   { path: 'mainpage', component: MainpageComponent },
-  { path: 'login', component: LoginComponent },
+  { path: 'login', component: LoginComponent ,children:[
+    {path:'login-doc',component:LoginDoctorComponent},
+    {path:'login-pat',component:LoginPatientComponent}
+  ]},
+// children:[
+//   {path:'login',component:LoginDoctorComponent},
+//   {path:'login',component:LoginPatientComponent},
+// ]},
+
   { path: 'register', component: SignupComponent },
+  
   {
     path: 'home',
     component: HomeComponent,

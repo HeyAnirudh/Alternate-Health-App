@@ -1,0 +1,12 @@
+<div class="form-container">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+        <input formControlName="email" type="email" name="Patient-Id" class="inputText" autocomplete="off" placeholder="Enter Patient Email" required>
+
+        <input formControlName="password" type="password" name="Password" class="inputText" autocomplete="off" placeholder="Enter your Password" required>
+        <button type="submit"><a routerLink="/home">Login</a></button>
+        <a id="forPass" href="#">Forget Password?</a>
+    </form>
+    <a id="cancel" routerLink="/mainpage">Cancel</a>
+    <p id="signup">No Account? <a id="sign" routerLink="/register">Register</a></p> -->
+</div>

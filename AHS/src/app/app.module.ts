@@ -25,6 +25,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
 import { Appointment1Component } from './appointment1/appointment1.component';
+import { LoginPatientComponent } from './login-patient/login-patient.component';
+import { LoginDoctorComponent } from './login-doctor/login-doctor.component';
+
 
 const appRoutes: Routes =[
 {path :'', component: DashboardComponent},
@@ -58,6 +61,9 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HomeComponent,
     PractionerDashboardComponent,
     Appointment1Component,
+    LoginPatientComponent,
+    LoginDoctorComponent,
+  
 
     
 
