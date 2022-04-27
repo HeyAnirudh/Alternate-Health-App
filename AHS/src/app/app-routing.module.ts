@@ -11,7 +11,6 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { ProfileComponent } from './mainpage/profile/profile.component';
 import { Mainpage1Component } from './mainpage1/mainpage1.component';
 import { MedicineComponent } from './medicine/medicine.component';
-import { RegisterDocComponent } from './register-doc/register-doc.component';
 import { RegisterComponent } from './register/register.component';
 import { SignupComponent } from './signup/signup.component';
 
@@ -22,16 +21,12 @@ const routes: Routes = [
     {path:'login-doc',component:LoginDoctorComponent},
     {path:'login-pat',component:LoginPatientComponent}
   ]},
-    
 // children:[
 //   {path:'login',component:LoginDoctorComponent},
 //   {path:'login',component:LoginPatientComponent},
 // ]},
 
   { path: 'register', component: SignupComponent },
-  {path:'doc-register',component:RegisterDocComponent},
-  {path:'pat-register',component:RegisterDocComponent},
-  
   
   {
     path: 'home',
