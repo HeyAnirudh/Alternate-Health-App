@@ -27,6 +27,7 @@ import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/pr
 import { Appointment1Component } from './appointment1/appointment1.component';
 import { LoginPatientComponent } from './login-patient/login-patient.component';
 import { LoginDoctorComponent } from './login-doctor/login-doctor.component';
+import { RegisterDocComponent } from './register-doc/register-doc.component';
 
 
 const appRoutes: Routes =[
@@ -63,6 +64,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     Appointment1Component,
     LoginPatientComponent,
     LoginDoctorComponent,
+    RegisterDocComponent,
   
 
     
