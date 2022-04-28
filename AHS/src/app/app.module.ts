@@ -25,8 +25,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { PractionerDashboardComponent } from './mainpage/practioner-dashboard/practioner-dashboard.component';
 import { Appointment1Component } from './appointment1/appointment1.component';
+
 import { LoginPatientComponent } from './login-patient/login-patient.component';
 import { LoginDoctorComponent } from './login-doctor/login-doctor.component';
+
+import { PhysioComponent } from './physio/physio.component';
+import { MusicComponent } from './music/music.component';
+import { YogaComponent } from './yoga/yoga.component';
+import { DietComponent } from './diet/diet.component';
 
 
 const appRoutes: Routes =[
@@ -61,9 +67,16 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HomeComponent,
     PractionerDashboardComponent,
     Appointment1Component,
+
     LoginPatientComponent,
     LoginDoctorComponent,
   
+
+    PhysioComponent,
+    MusicComponent,
+    YogaComponent,
+    DietComponent,
+
 
     
 
