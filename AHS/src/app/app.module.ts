@@ -33,6 +33,21 @@ import { PhysioComponent } from './physio/physio.component';
 import { MusicComponent } from './music/music.component';
 import { YogaComponent } from './yoga/yoga.component';
 import { DietComponent } from './diet/diet.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { CalenderComponent } from './calender/calender.component';
+
+
+
+
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { FlatpickrModule } from 'angularx-flatpickr';
+
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 
 
 const appRoutes: Routes =[
@@ -76,6 +91,10 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     MusicComponent,
     YogaComponent,
     DietComponent,
+    CalenderComponent
+    
+    
+    
 
 
     
@@ -88,7 +107,16 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HttpClientModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
-    FullCalendarModule
+    FullCalendarModule,
+    BrowserAnimationsModule,
+    CommonModule,
+    FormsModule,
+    NgbModalModule,
+    FlatpickrModule.forRoot(),
+    CalendarModule.forRoot({
+      provide: DateAdapter,
+      useFactory: adapterFactory,
+    }),
 
 
   ],
